@@ -1,0 +1,2 @@
+# brain-exercise
+python exercises 

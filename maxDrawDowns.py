@@ -1,4 +1,5 @@
 ## Code computes the N maximum drawdowns given a vector of prices
+## TODO: Modify the code to include returning the periods of the drawdown in an efficient manner
 
 def maximum_accumulate(x):
     runningMax = []
@@ -40,6 +41,6 @@ if __name__ == "__main__" :
     prices = [1,2,3,4,5,4,3,4,3,4,5,6,7,4,3,6,2,10]
     N = 5
 
-    # Should return [5,2]
+    # Should return [5,2] as the answer
 
     print(calcMaxDrawdowns( prices , N , percent = False ))
